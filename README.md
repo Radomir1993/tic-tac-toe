@@ -1,27 +1,21 @@
 # TicTacToe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+A tic-tac-toe game developed using Angular, TypeScript, SCSS, HTML and Nebular. I used Angular to render board and squares components. This game is in single player mode.
 
-## Development server
+## Application's UI:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The game begins with an empty board, displaying current player:
 
-## Code scaffolding
+![xostart](https://user-images.githubusercontent.com/48363793/200366360-aa1a9126-7d9a-45c0-85e8-d202fec72742.JPG)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+If one player wins, the message on top is replaced with an adequate message:
 
-## Build
+![xogame](https://user-images.githubusercontent.com/48363793/200366656-d8a66fda-e291-42a3-89c1-0c6f2b2548b7.JPG)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+If there are no moves available, the "It's a Tie" message is returned:
 
-## Running unit tests
+![xotie](https://user-images.githubusercontent.com/48363793/200366978-38805a1b-adf3-487a-a390-dd5aa68cc2b9.JPG)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Clicking the "restart" button you will get a new empty board.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
